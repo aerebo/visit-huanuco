@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visit Huánuco — Propuesta de rediseño</title>
+<meta name="description" content="Propuesta de rediseño UX/UI del portal de turismo y comercio de Huánuco (DIRCETUR).">
+<meta name="robots" content="noindex">
+
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Figtree:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F5F4EF}
+a{color:#1E3A2F}a:hover{color:#0F241B}
+</style>
+
+</head>
+<body>
+
+<div style="font-family: 'Figtree', system-ui, sans-serif; color: #16201B; background: #F5F4EF; width: 100%">
+
+<!-- Utility bar -->
+<div style="background: #0F241B; color: #D8E2DC; font-size: 13px">
+<div style="max-width: 1200px; margin: 0 auto; padding: 8px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px">
+<span>Portal oficial de turismo y comercio · DIRCETUR Huánuco · Gobierno Regional de Huánuco</span>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center">
+<a href="#comercio" style="color: #FFFFFF; font-weight: 700; text-decoration: none">Para empresas y artesanos</a>
+<a href="https://wa.me/51949100280" style="color: #D8E2DC; text-decoration: none">WhatsApp +51 949 100 280</a>
+<div style="display: flex; gap: 4px">
+<button style="background: #D9932B; color: #16201B; border: 0; border-radius: 4px; padding: 4px 10px; font: 600 12px 'Figtree', sans-serif; min-height: 28px">ES</button>
+<button style="background: transparent; color: #D8E2DC; border: 1px solid #3C5A4C; border-radius: 4px; padding: 4px 10px; font: 600 12px 'Figtree', sans-serif; min-height: 28px">EN</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Header -->
+<header style="background: #FFFFFF; border-bottom: 1px solid #E2E1DA">
+<div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#" style="text-decoration: none; display: flex; align-items: baseline; gap: 6px; color: #16201B">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 26px; letter-spacing: -0.5px">Visit</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 26px; letter-spacing: -0.5px; color: #1E6B4A">Huánuco</span>
+</a>
+<nav aria-label="Principal" style="display: flex; flex-wrap: wrap; gap: 24px; font-weight: 600; font-size: 15px">
+<a href="#destinos" style="text-decoration: none">Destinos</a>
+<a href="#que-hacer" style="text-decoration: none">Qué hacer</a>
+<a href="#agenda" style="text-decoration: none">Agenda</a>
+<a href="#planifica" style="text-decoration: none">Planifica tu viaje</a>
+<a href="#comercio" style="text-decoration: none">Artesanía y productos</a>
+<a href="#historias" style="text-decoration: none">Historias</a>
+</nav>
+<div style="display: flex; gap: 12px; align-items: center">
+<button aria-label="Buscar" style="width: 44px; height: 44px; border-radius: 999px; border: 1px solid #D5D4CC; background: #FFFFFF; display: flex; align-items: center; justify-content: center; cursor: pointer">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16201B" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+</button>
+<a href="#planifica" style="background: #1E3A2F; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 12px 20px; border-radius: 999px; font-size: 15px">Planifica tu viaje</a>
+</div>
+</div>
+</header>
+
+<!-- Hero -->
+<section style="background: #1E3A2F; color: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 72px 24px 56px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div style="flex: 1 1 460px; min-width: 0">
+<p style="margin: 0 0 16px; font-weight: 700; font-size: 14px; letter-spacing: 1.5px; text-transform: uppercase; color: #D9932B">Huánuco y Tingo María · Perú central</p>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 64px; line-height: 1.02; letter-spacing: -1.5px">De los Andes a la Amazonía, en un solo viaje.</h1>
+<p style="margin: 24px 0 0; font-size: 19px; line-height: 1.55; color: #D8E2DC; max-width: 540px">La Cueva de las Lechuzas, la Cascada Honolulu, el gallito de las rocas del Codo del Pozuzo y la Navidad más grande del mundo con los Negritos de Huánuco.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px">
+<a href="#destinos" style="background: #D9932B; color: #16201B; text-decoration: none; font-weight: 700; padding: 16px 28px; border-radius: 999px; font-size: 16px">Explora destinos</a>
+<a href="#planifica" style="border: 2px solid #FFFFFF; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 14px 26px; border-radius: 999px; font-size: 16px">Planifica tu viaje</a>
+</div>
+</div>
+<div style="flex: 1 1 420px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<div style="grid-row: span 2; background: #2F5243; border-radius: 16px; min-height: 400px; display: flex; align-items: flex-end; padding: 16px; box-sizing: border-box">
+<span style="font-size: 13px; color: #BFD0C6">[Foto producción: Gruta del Manto Sagrado, Tingo María]</span>
+</div>
+<div style="background: #3C5A4C; border-radius: 16px; min-height: 194px; display: flex; align-items: flex-end; padding: 16px; box-sizing: border-box">
+<span style="font-size: 13px; color: #D8E2DC">[Foto producción: banner hero actual]</span>
+</div>
+<div style="background: #46634F; border-radius: 16px; min-height: 194px; display: flex; align-items: flex-end; padding: 16px; box-sizing: border-box">
+<span style="font-size: 13px; color: #E6EDE8">[Foto producción: Negritos de Huánuco]</span>
+</div>
+</div>
+</div>
+
+<!-- Interest finder -->
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 24px 56px">
+<form style="background: #FFFFFF; color: #16201B; border-radius: 16px; padding: 20px; display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end">
+<div style="flex: 2 1 260px; display: flex; flex-direction: column; gap: 6px">
+<label for="q-int" style="font-size: 13px; font-weight: 700">¿Qué te gustaría hacer?</label>
+<select id="q-int" style="height: 48px; border: 1px solid #C9C8BF; border-radius: 10px; padding: 0 12px; font: 500 16px 'Figtree', sans-serif; background: #FFFFFF; color: #16201B">
+<option>Naturaleza y aventura</option>
+<option>Fiestas y tradición</option>
+<option>Gastronomía</option>
+<option>Artesanía y productos locales</option>
+</select>
+</div>
+<div style="flex: 1 1 200px; display: flex; flex-direction: column; gap: 6px">
+<label for="q-dest" style="font-size: 13px; font-weight: 700">Destino</label>
+<select id="q-dest" style="height: 48px; border: 1px solid #C9C8BF; border-radius: 10px; padding: 0 12px; font: 500 16px 'Figtree', sans-serif; background: #FFFFFF; color: #16201B">
+<option>Toda la región</option>
+<option>Huánuco ciudad</option>
+<option>Tingo María</option>
+<option>Codo del Pozuzo</option>
+<option>Aucayacu</option>
+</select>
+</div>
+<div style="flex: 1 1 180px; display: flex; flex-direction: column; gap: 6px">
+<label for="q-days" style="font-size: 13px; font-weight: 700">Duración</label>
+<select id="q-days" style="height: 48px; border: 1px solid #C9C8BF; border-radius: 10px; padding: 0 12px; font: 500 16px 'Figtree', sans-serif; background: #FFFFFF; color: #16201B">
+<option>Full day</option>
+<option>2 a 3 días</option>
+<option>4 días o más</option>
+</select>
+</div>
+<button type="submit" style="flex: 0 0 auto; height: 48px; padding: 0 28px; border: 0; border-radius: 10px; background: #1E3A2F; color: #FFFFFF; font: 700 16px 'Figtree', sans-serif; cursor: pointer">Ver experiencias</button>
+</form>
+</div>
+</section>
+
+<!-- Agenda -->
+<section id="agenda" style="max-width: 1200px; margin: 0 auto; padding: 64px 24px 0">
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<article style="flex: 2 1 520px; min-width: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-wrap: wrap">
+<div style="flex: 1 1 240px; min-height: 280px; background: #CFC6B3; display: flex; align-items: flex-end; padding: 16px; box-sizing: border-box">
+<span style="font-size: 13px; color: #3E3A31">[Foto producción: afiche Señor de Burgos 2026]</span>
+</div>
+<div style="flex: 1 1 280px; padding: 32px; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px">
+<span style="align-self: flex-start; background: #FBE9CC; color: #6B4510; font-weight: 700; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; padding: 6px 10px; border-radius: 999px">Ahora en Huánuco · Octubre</span>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; line-height: 1.1">Festividades 2026 del Señor de Burgos</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: #4A5550">Rey y Patrón de Huánuco. Miles de fieles se reúnen en torno al Cristo Moreno en una de las celebraciones de mayor identidad de la región.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 8px; align-items: center">
+<a href="#" style="background: #1E3A2F; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 12px 20px; border-radius: 999px">Ver programa</a>
+<a href="#" style="font-weight: 700">Descargar programa (PDF)</a>
+</div>
+</div>
+</article>
+<aside style="flex: 1 1 300px; min-width: 0; background: #FFFFFF; border-radius: 20px; padding: 28px; box-sizing: border-box">
+<h3 style="margin: 0 0 16px; font-family: 'Bricolage Grotesque', sans-serif; font-size: 20px; font-weight: 700">Próximas fiestas</h3>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column">
+<li style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #E8E7E0">
+<span style="flex: 0 0 84px; font-weight: 700; color: #1E6B4A; font-size: 14px">24 dic – 19 ene</span>
+<span style="font-weight: 600">Los Negritos de Huánuco, la Navidad más grande del mundo</span>
+</li>
+<li style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #E8E7E0">
+<span style="flex: 0 0 84px; font-weight: 700; color: #1E6B4A; font-size: 14px">18 – 22 feb</span>
+<span style="font-weight: 600">Carnaval de Tinkuy</span>
+</li>
+<li style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #E8E7E0">
+<span style="flex: 0 0 84px; font-weight: 700; color: #1E6B4A; font-size: 14px">Mar – abr</span>
+<span style="font-weight: 600">Semana Santa en Huánuco</span>
+</li>
+</ul>
+</aside>
+</div>
+
+<!-- Calendario anual -->
+<div style="margin-top: 20px; background: #FFFFFF; border-radius: 20px; padding: 28px; box-sizing: border-box">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 20px">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 22px; font-weight: 700">Calendario de festividades</h3>
+<a href="#" style="font-weight: 700">Ver mapa de festividades →</a>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px">
+<li style="border-top: 3px solid #1E6B4A; padding-top: 10px"><span style="display: block; font-size: 12px; font-weight: 700; color: #1E6B4A; text-transform: uppercase">Ene</span><span style="font-weight: 600; font-size: 14px">Negritos de Huánuco · 19 ene</span></li>
+<li style="border-top: 3px solid #C9C8BF; padding-top: 10px"><span style="display: block; font-size: 12px; font-weight: 700; color: #4A5550; text-transform: uppercase">Feb</span><span style="font-weight: 600; font-size: 14px">Carnaval de Tinkuy</span></li>
+<li style="border-top: 3px solid #C9C8BF; padding-top: 10px"><span style="display: block; font-size: 12px; font-weight: 700; color: #4A5550; text-transform: uppercase">Mar – abr</span><span style="font-weight: 600; font-size: 14px">Semana Santa</span></li>
+<li style="border-top: 3px solid #C9C8BF; padding-top: 10px"><span style="display: block; font-size: 12px; font-weight: 700; color: #4A5550; text-transform: uppercase">[Fecha]</span><span style="font-weight: 600; font-size: 14px">Señor de Chacos</span></li>
+<li style="border-top: 3px solid #C9C8BF; padding-top: 10px"><span style="display: block; font-size: 12px; font-weight: 700; color: #4A5550; text-transform: uppercase">Jun</span><span style="font-weight: 600; font-size: 14px">San Juan en Tingo María · 13–24 jun</span></li>
+<li style="border-top: 3px solid #C9C8BF; padding-top: 10px"><span style="display: block; font-size: 12px; font-weight: 700; color: #4A5550; text-transform: uppercase">Jul – ago</span><span style="font-weight: 600; font-size: 14px">Fiesta del Sol · 26 jul–2 ago</span></li>
+<li style="border-top: 3px solid #C9C8BF; padding-top: 10px"><span style="display: block; font-size: 12px; font-weight: 700; color: #4A5550; text-transform: uppercase">Ago</span><span style="font-weight: 600; font-size: 14px">Aniversario de Huánuco · 15 ago</span></li>
+<li style="border-top: 3px solid #D9932B; padding-top: 10px"><span style="display: block; font-size: 12px; font-weight: 700; color: #6B4510; text-transform: uppercase">Oct · ahora</span><span style="font-weight: 600; font-size: 14px">Señor de Burgos</span></li>
+</ol>
+</div>
+</section>
+
+<!-- Destinos -->
+<section id="destinos" style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 0">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 28px">
+<div>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 44px; letter-spacing: -1px">Destinos</h2>
+<p style="margin: 8px 0 0; font-size: 17px; color: #4A5550">Elige por dónde empezar. Cada destino tiene su ficha con atractivos, cómo llegar y dónde dormir.</p>
+</div>
+<a href="#" style="font-weight: 700">Todos los atractivos (SIGMINCETUR) →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px">
+<a href="#" style="text-decoration: none; color: #16201B; background: #FFFFFF; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 220px; background: #3C5A4C; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #D8E2DC">[Foto producción: viaje-tingo-maria]</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="align-self: flex-start; font-size: 12px; font-weight: 700; color: #1E6B4A; background: #E3F0E8; padding: 4px 10px; border-radius: 999px">Selva</span>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700">Tingo María</h3>
+<p style="margin: 0; color: #4A5550; line-height: 1.5">Cueva de las Lechuzas, Cascada Honolulu y Laguna de los Milagros.</p>
+</div>
+</a>
+<a href="#" style="text-decoration: none; color: #16201B; background: #FFFFFF; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 220px; background: #8A7B63; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #F2ECE0">[Foto producción: Huánuco ciudad]</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="align-self: flex-start; font-size: 12px; font-weight: 700; color: #6B4510; background: #FBE9CC; padding: 4px 10px; border-radius: 999px">Sierra</span>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700">Huánuco ciudad</h3>
+<p style="margin: 0; color: #4A5550; line-height: 1.5">El mejor clima, cocina tradicional y la tierra de los Negritos.</p>
+</div>
+</a>
+<a href="#" style="text-decoration: none; color: #16201B; background: #FFFFFF; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 220px; background: #2F5243; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #BFD0C6">[Foto producción: blog gallito de las rocas]</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="align-self: flex-start; font-size: 12px; font-weight: 700; color: #1E6B4A; background: #E3F0E8; padding: 4px 10px; border-radius: 999px">Área de conservación</span>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700">Codo del Pozuzo</h3>
+<p style="margin: 0; color: #4A5550; line-height: 1.5">Senderos, biodiversidad y el sendero del gallito de las rocas.</p>
+</div>
+</a>
+<a href="#" style="text-decoration: none; color: #16201B; background: #FFFFFF; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 220px; background: #46634F; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #E6EDE8">[Foto producción: blog Aucayacu]</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="align-self: flex-start; font-size: 12px; font-weight: 700; color: #1E6B4A; background: #E3F0E8; padding: 4px 10px; border-radius: 999px">Selva</span>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700">Aucayacu</h3>
+<p style="margin: 0; color: #4A5550; line-height: 1.5">Un paraíso por descubrir en el valle del Huallaga.</p>
+</div>
+</a>
+</div>
+</section>
+
+<!-- Qué hacer + Experiencias -->
+<section id="que-hacer" style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 0">
+<h2 style="margin: 0 0 28px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 44px; letter-spacing: -1px">¿Qué te mueve?</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+<a href="#" style="text-decoration: none; background: #1E3A2F; color: #FFFFFF; border-radius: 16px; padding: 28px; min-height: 170px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D9932B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20l6-10 4 6 3-4 5 8z"></path></svg>
+<div><h3 style="margin: 0; font-size: 22px; font-family: 'Bricolage Grotesque', sans-serif">Naturaleza y aventura</h3><p style="margin: 6px 0 0; color: #D8E2DC">Cuevas, cascadas, senderos</p></div>
+</a>
+<a href="#agenda" style="text-decoration: none; background: #FFFFFF; color: #16201B; border-radius: 16px; padding: 28px; min-height: 170px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1E6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 15.6 7.1 18.2 8 12.7 4 8.8 9.5 8z"></path></svg>
+<div><h3 style="margin: 0; font-size: 22px; font-family: 'Bricolage Grotesque', sans-serif">Fiestas y tradición</h3><p style="margin: 6px 0 0; color: #4A5550">Negritos, Tinkuy, Señor de Burgos</p></div>
+</a>
+<a href="#sabores" style="text-decoration: none; background: #FFFFFF; color: #16201B; border-radius: 16px; padding: 28px; min-height: 170px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1E6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11h16a8 8 0 01-16 0zM12 3v4M8 4v3M16 4v3"></path></svg>
+<div><h3 style="margin: 0; font-size: 22px; font-family: 'Bricolage Grotesque', sans-serif">Gastronomía</h3><p style="margin: 6px 0 0; color: #4A5550">Pachamanca, juane, prestiños</p></div>
+</a>
+<a href="#comercio" style="text-decoration: none; background: #FFFFFF; color: #16201B; border-radius: 16px; padding: 28px; min-height: 170px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1E6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12l-1 6H7zM7 9l-2 12h14L17 9M10 13h4"></path></svg>
+<div><h3 style="margin: 0; font-size: 22px; font-family: 'Bricolage Grotesque', sans-serif">Artesanía y productos</h3><p style="margin: 6px 0 0; color: #4A5550">Bordados, café de Monzón, cacao</p></div>
+</a>
+</div>
+
+<div style="margin-top: 48px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 20px">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 28px">Experiencias destacadas</h3>
+<a href="#" style="font-weight: 700">Ver todas →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px">
+<article style="background: #FFFFFF; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 170px; background: #8A7B63; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #F2ECE0">[Foto producción: Huánuco Clásico]</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<div style="display: flex; gap: 8px; font-size: 13px; color: #4A5550; font-weight: 600"><span>Huánuco</span><span aria-hidden="true">·</span><span>Full day</span></div>
+<h4 style="margin: 0; font-size: 20px; font-family: 'Bricolage Grotesque', sans-serif">Huánuco Clásico</h4>
+<p style="margin: 0; font-size: 14px; color: #4A5550; line-height: 1.45">Los atractivos naturales y culturales esenciales de la región.</p>
+<div style="margin-top: auto; padding-top: 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #E8E7E0">
+<span><span style="font-size: 13px; color: #4A5550">Desde </span><strong style="font-size: 18px">S/ [PRECIO]</strong></span>
+<a href="#" style="background: #1E3A2F; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 10px 16px; border-radius: 999px; font-size: 14px">Consultar</a>
+</div>
+</div>
+</article>
+<article style="background: #FFFFFF; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 170px; background: #46634F; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #E6EDE8">[Foto producción: Huánuco Andizónico]</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<div style="display: flex; gap: 8px; font-size: 13px; color: #4A5550; font-weight: 600"><span>Huánuco</span><span aria-hidden="true">·</span><span>Full day</span></div>
+<h4 style="margin: 0; font-size: 20px; font-family: 'Bricolage Grotesque', sans-serif">Huánuco Andizónico</h4>
+<p style="margin: 0; font-size: 14px; color: #4A5550; line-height: 1.45">Lugares poco conocidos donde la sierra se encuentra con la selva.</p>
+<div style="margin-top: auto; padding-top: 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #E8E7E0">
+<span><span style="font-size: 13px; color: #4A5550">Desde </span><strong style="font-size: 18px">S/ [PRECIO]</strong></span>
+<a href="#" style="background: #1E3A2F; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 10px 16px; border-radius: 999px; font-size: 14px">Consultar</a>
+</div>
+</div>
+</article>
+<article style="background: #FFFFFF; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 170px; background: #3C5A4C; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #D8E2DC">[Foto producción: Owl Cave and Honolulu Falls]</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<div style="display: flex; gap: 8px; font-size: 13px; color: #4A5550; font-weight: 600"><span>Tingo María</span><span aria-hidden="true">·</span><span>Full day</span></div>
+<h4 style="margin: 0; font-size: 20px; font-family: 'Bricolage Grotesque', sans-serif">Cueva de las Lechuzas y Cascada Honolulu</h4>
+<p style="margin: 0; font-size: 14px; color: #4A5550; line-height: 1.45">Agua Sulfurosa, Mirador Jacintillo y Mirador de la Cruz.</p>
+<div style="margin-top: auto; padding-top: 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #E8E7E0">
+<span><span style="font-size: 13px; color: #4A5550">Desde </span><strong style="font-size: 18px">S/ [PRECIO]</strong></span>
+<a href="#" style="background: #1E3A2F; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 10px 16px; border-radius: 999px; font-size: 14px">Consultar</a>
+</div>
+</div>
+</article>
+<article style="background: #FFFFFF; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 170px; background: #2F5243; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #BFD0C6">[Foto producción: Full Eco-Tourism]</span></div>
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<div style="display: flex; gap: 8px; font-size: 13px; color: #4A5550; font-weight: 600"><span>Tingo María + Ucayali</span><span aria-hidden="true">·</span><span>[Días]</span></div>
+<h4 style="margin: 0; font-size: 20px; font-family: 'Bricolage Grotesque', sans-serif">Ecoturismo Tingo María y Pucallpa</h4>
+<p style="margin: 0; font-size: 14px; color: #4A5550; line-height: 1.45">Del parque nacional a la laguna Yarinacocha.</p>
+<div style="margin-top: auto; padding-top: 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #E8E7E0">
+<span><span style="font-size: 13px; color: #4A5550">Desde </span><strong style="font-size: 18px">S/ [PRECIO]</strong></span>
+<a href="#" style="background: #1E3A2F; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 10px 16px; border-radius: 999px; font-size: 14px">Consultar</a>
+</div>
+</div>
+</article>
+</div>
+
+<!-- Agencias con paquetes -->
+<div style="margin-top: 32px; background: #FFFFFF; border-radius: 20px; padding: 28px; box-sizing: border-box">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 16px">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 22px; font-weight: 700">Paquetes de agencias locales</h3>
+<span style="font-size: 14px; color: #4A5550">Elige una agencia para ver sus paquetes y escribirle directo.</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px">
+<a href="#" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 12px; padding: 12px; min-height: 44px"><span style="flex: 0 0 40px; height: 40px; border-radius: 8px; background: #E8E7E0"></span><span style="font-weight: 600; font-size: 14px">Pal Tours</span></a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 12px; padding: 12px; min-height: 44px"><span style="flex: 0 0 40px; height: 40px; border-radius: 8px; background: #E8E7E0"></span><span style="font-weight: 600; font-size: 14px">Aventura Sin Límites</span></a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 12px; padding: 12px; min-height: 44px"><span style="flex: 0 0 40px; height: 40px; border-radius: 8px; background: #E8E7E0"></span><span style="font-weight: 600; font-size: 14px">Viaja y Explora el Mundo</span></a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 12px; padding: 12px; min-height: 44px"><span style="flex: 0 0 40px; height: 40px; border-radius: 8px; background: #E8E7E0"></span><span style="font-weight: 600; font-size: 14px">Tours Tincco · Tingo María</span></a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 12px; padding: 12px; min-height: 44px"><span style="flex: 0 0 40px; height: 40px; border-radius: 8px; background: #E8E7E0"></span><span style="font-weight: 600; font-size: 14px">High Tours</span></a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 12px; padding: 12px; min-height: 44px"><span style="flex: 0 0 40px; height: 40px; border-radius: 8px; background: #E8E7E0"></span><span style="font-weight: 600; font-size: 14px">Play Tours</span></a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 12px; padding: 12px; min-height: 44px"><span style="flex: 0 0 40px; height: 40px; border-radius: 8px; background: #E8E7E0"></span><span style="font-weight: 600; font-size: 14px">Pequeña ruta, gran aventura</span></a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 12px; padding: 12px; min-height: 44px"><span style="flex: 0 0 40px; height: 40px; border-radius: 8px; background: #E8E7E0"></span><span style="font-weight: 600; font-size: 14px">Viajeros Perú</span></a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 12px; padding: 12px; min-height: 44px"><span style="flex: 0 0 40px; height: 40px; border-radius: 8px; background: #E8E7E0"></span><span style="font-weight: 600; font-size: 14px">Young Travel</span></a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 12px; padding: 12px; min-height: 44px"><span style="flex: 0 0 40px; height: 40px; border-radius: 8px; background: #E8E7E0"></span><span style="font-weight: 600; font-size: 14px">Nattour Perú</span></a>
+</div>
+</div>
+</section>
+
+<!-- Planifica -->
+<section id="planifica" style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 0">
+<div style="background: #FFFFFF; border-radius: 24px; padding: 48px; box-sizing: border-box">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 44px; letter-spacing: -1px">Planifica tu viaje</h2>
+<p style="margin: 8px 0 32px; font-size: 17px; color: #4A5550">Lo esencial antes de salir, en un solo lugar.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px">
+<a href="#" style="text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 14px; padding: 24px">
+<h3 style="margin: 0 0 6px; font-size: 19px">Cómo llegar</h3><p style="margin: 0; color: #4A5550; font-size: 15px; line-height: 1.5">Rutas y tiempos desde Lima a Huánuco y Tingo María.</p></a>
+<a href="https://www.gob.pe/senamhi" style="text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 14px; padding: 24px">
+<h3 style="margin: 0 0 6px; font-size: 19px">Clima</h3><p style="margin: 0; color: #4A5550; font-size: 15px; line-height: 1.5">Pronóstico oficial del SENAMHI por zona.</p></a>
+<a href="https://www.sernanp.gob.pe/" style="text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 14px; padding: 24px">
+<h3 style="margin: 0 0 6px; font-size: 19px">Áreas protegidas</h3><p style="margin: 0; color: #4A5550; font-size: 15px; line-height: 1.5">Normas y horarios del SERNANP para tu visita.</p></a>
+<a href="#" style="text-decoration: none; color: #16201B; border: 1px solid #E2E1DA; border-radius: 14px; padding: 24px">
+<h3 style="margin: 0 0 6px; font-size: 19px">Seguridad</h3><p style="margin: 0; color: #4A5550; font-size: 15px; line-height: 1.5">App Tourist Police Perú y teléfonos útiles.</p></a>
+<a href="https://wa.me/51949100280" style="text-decoration: none; color: #16201B; background: #FBE9CC; border-radius: 14px; padding: 24px">
+<h3 style="margin: 0 0 6px; font-size: 19px">¿Dudas? Escríbenos</h3><p style="margin: 0; color: #4A5550; font-size: 15px; line-height: 1.5">Orientación gratuita de DIRCETUR por WhatsApp.</p></a>
+</div>
+
+<!-- Directorio -->
+<div style="margin-top: 48px; border-top: 1px solid #E2E1DA; padding-top: 40px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<div>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 28px">Prestadores de servicios turísticos</h3>
+<p style="margin: 6px 0 0; color: #4A5550">Formalizados por DIRCETUR Huánuco: hoteles, restaurantes, agencias y guías oficiales.</p>
+</div>
+<span style="display: flex; align-items: center; gap: 8px; background: #E3F0E8; color: #1E5A3E; font-weight: 700; font-size: 14px; padding: 8px 14px; border-radius: 999px">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E5A3E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"></path><path d="M9 12l2 2 4-4"></path></svg>
+Formalizado por DIRCETUR</span>
+</div>
+<div role="tablist" aria-label="Tipo de prestador" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px">
+<button role="tab" aria-selected="true" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 0; background: #1E3A2F; color: #FFFFFF; font: 700 15px 'Figtree', sans-serif">Hoteles</button>
+<button role="tab" aria-selected="false" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid #C9C8BF; background: #FFFFFF; color: #16201B; font: 600 15px 'Figtree', sans-serif">Restaurantes</button>
+<button role="tab" aria-selected="false" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid #C9C8BF; background: #FFFFFF; color: #16201B; font: 600 15px 'Figtree', sans-serif">Agencias de viaje</button>
+<button role="tab" aria-selected="false" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid #C9C8BF; background: #FFFFFF; color: #16201B; font: 600 15px 'Figtree', sans-serif">Guías oficiales</button>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px">
+<label for="dir-q" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Buscar por nombre</label>
+<input id="dir-q" type="search" placeholder="Buscar por nombre" style="flex: 2 1 240px; height: 48px; border: 1px solid #C9C8BF; border-radius: 10px; padding: 0 14px; font: 500 16px 'Figtree', sans-serif">
+<label for="dir-city" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Ciudad</label>
+<select id="dir-city" style="flex: 1 1 160px; height: 48px; border: 1px solid #C9C8BF; border-radius: 10px; padding: 0 12px; font: 500 16px 'Figtree', sans-serif; background: #FFFFFF"><option>Todas las ciudades</option><option>Huánuco</option><option>Tingo María</option></select>
+<label for="dir-cat" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Categoría</label>
+<select id="dir-cat" style="flex: 1 1 160px; height: 48px; border: 1px solid #C9C8BF; border-radius: 10px; padding: 0 12px; font: 500 16px 'Figtree', sans-serif; background: #FFFFFF"><option>Todas las categorías</option><option>[Categoría]</option></select>
+</div>
+<div style="margin-top: 20px; border: 1px solid #E2E1DA; border-radius: 14px; overflow-x: auto">
+<table style="width: 100%; border-collapse: collapse; font-size: 15px; min-width: 640px">
+<thead><tr style="background: #F5F4EF; text-align: left">
+<th style="padding: 14px 18px; font-size: 13px; color: #4A5550">Establecimiento</th><th style="padding: 14px 18px; font-size: 13px; color: #4A5550">Ciudad</th><th style="padding: 14px 18px; font-size: 13px; color: #4A5550">Categoría</th><th style="padding: 14px 18px; font-size: 13px; color: #4A5550">Contacto</th></tr></thead>
+<tbody>
+<tr style="border-top: 1px solid #E8E7E0"><td style="padding: 16px 18px; font-weight: 600">Grand Hotel Huánuco</td><td style="padding: 16px 18px">Huánuco</td><td style="padding: 16px 18px">[Categoría]</td><td style="padding: 16px 18px"><a href="#" style="font-weight: 700">WhatsApp</a></td></tr>
+<tr style="border-top: 1px solid #E8E7E0"><td style="padding: 16px 18px; font-weight: 600">Hotel Natural Green</td><td style="padding: 16px 18px">Tingo María</td><td style="padding: 16px 18px">[Categoría]</td><td style="padding: 16px 18px"><a href="#" style="font-weight: 700">WhatsApp</a></td></tr>
+<tr style="border-top: 1px solid #E8E7E0"><td style="padding: 16px 18px; font-weight: 600">Villa Jennifer</td><td style="padding: 16px 18px">Tingo María</td><td style="padding: 16px 18px">[Categoría]</td><td style="padding: 16px 18px"><a href="#" style="font-weight: 700">WhatsApp</a></td></tr>
+<tr style="border-top: 1px solid #E8E7E0"><td style="padding: 16px 18px; font-weight: 600">Hotel Plaza del Bosque INN</td><td style="padding: 16px 18px">Tingo María</td><td style="padding: 16px 18px">[Categoría]</td><td style="padding: 16px 18px"><a href="#" style="font-weight: 700">WhatsApp</a></td></tr>
+</tbody>
+</table>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 16px; font-size: 14px; color: #4A5550">
+<span>Mostrando 4 de [N] hoteles</span>
+<a href="#">Descargar lista completa (PDF)</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Gastronomía -->
+<section id="sabores" style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 0">
+<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
+<div style="flex: 1 1 340px; min-width: 0">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 44px; letter-spacing: -1px">Sabores de Huánuco</h2>
+<p style="margin: 12px 0 24px; font-size: 17px; line-height: 1.55; color: #4A5550">De la pachamanca serrana al juane de la selva. Precios de referencia por plato.</p>
+<a href="#" style="background: #1E3A2F; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 14px 22px; border-radius: 999px; display: inline-block">Restaurantes formalizados</a>
+</div>
+<ul style="flex: 1.4 1 480px; min-width: 0; list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px">
+<li style="background: #FFFFFF; border-radius: 14px; padding: 20px; display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">Pachamanca</span><span style="color: #4A5550">S/ 10–25</span></li>
+<li style="background: #FFFFFF; border-radius: 14px; padding: 20px; display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">Picante de cuy</span><span style="color: #4A5550">S/ 25</span></li>
+<li style="background: #FFFFFF; border-radius: 14px; padding: 20px; display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">Locro de gallina</span><span style="color: #4A5550">S/ 30</span></li>
+<li style="background: #FFFFFF; border-radius: 14px; padding: 20px; display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">Juane</span><span style="color: #4A5550">S/ 3–25</span></li>
+<li style="background: #FFFFFF; border-radius: 14px; padding: 20px; display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">Tacacho con cecina</span><span style="color: #4A5550">S/ 3–25</span></li>
+<li style="background: #FFFFFF; border-radius: 14px; padding: 20px; display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">Prestiños huanuqueños</span><span style="color: #4A5550">S/ 3–5</span></li>
+</ul>
+</div>
+</section>
+
+<!-- Artesanía y comercio -->
+<section id="comercio" style="margin-top: 88px; background: #EFE7D8">
+<div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px">
+<p style="margin: 0 0 8px; font-weight: 700; font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; color: #6B4510">Hecho en Huánuco</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 44px; letter-spacing: -1px">Artesanía y productos regionales</h2>
+<p style="margin: 8px 0 36px; font-size: 17px; color: #4A5550; max-width: 680px">Llévate Huánuco a casa o haz negocios con productores de la región.</p>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<!-- Artesanía -->
+<div style="flex: 1 1 480px; min-width: 0; background: #FFFFFF; border-radius: 20px; padding: 28px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700">Líneas artesanales</h3>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+<a href="#" style="text-decoration: none; color: #16201B; display: flex; flex-direction: column; gap: 6px"><span style="height: 90px; border-radius: 10px; background: #CFC6B3"></span><span style="font-weight: 600; font-size: 14px">Textil</span></a>
+<a href="#" style="text-decoration: none; color: #16201B; display: flex; flex-direction: column; gap: 6px"><span style="height: 90px; border-radius: 10px; background: #A3906F"></span><span style="font-weight: 600; font-size: 14px">Talla</span></a>
+<a href="#" style="text-decoration: none; color: #16201B; display: flex; flex-direction: column; gap: 6px"><span style="height: 90px; border-radius: 10px; background: #8A7B63"></span><span style="font-weight: 600; font-size: 14px">Bisutería</span></a>
+<a href="#" style="text-decoration: none; color: #16201B; display: flex; flex-direction: column; gap: 6px"><span style="height: 90px; border-radius: 10px; background: #B9A988"></span><span style="font-weight: 600; font-size: 14px">Cerámica</span></a>
+<a href="#" style="text-decoration: none; color: #16201B; display: flex; flex-direction: column; gap: 6px"><span style="height: 90px; border-radius: 10px; background: #9AA889"></span><span style="font-weight: 600; font-size: 14px">Fibras vegetales</span></a>
+<div style="display: flex; flex-direction: column; gap: 6px"><span style="height: 90px; border-radius: 10px; border: 1px dashed #B9A988; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #6B4510; font-weight: 700">Próximamente</span><span style="font-weight: 600; font-size: 14px; color: #4A5550">Pintura</span></div>
+</div>
+<article style="display: flex; gap: 16px; border-top: 1px solid #E8E7E0; padding-top: 20px">
+<div style="flex: 0 0 120px; height: 120px; border-radius: 12px; background: #CFC6B3; display: flex; align-items: flex-end; padding: 8px; box-sizing: border-box"><span style="font-size: 11px; color: #3E3A31">[Foto: Bordora]</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 700; color: #6B4510; text-transform: uppercase; letter-spacing: 1px">Historia de artesana</span>
+<h4 style="margin: 0; font-size: 18px; font-family: 'Bricolage Grotesque', sans-serif">Un bordado con historia: Rosalía Araujo y los trajes de los Negritos</h4>
+<a href="#" style="font-weight: 700; font-size: 14px">Leer historia →</a>
+</div>
+</article>
+</div>
+
+<!-- Comercio exterior -->
+<div style="flex: 1 1 480px; min-width: 0; background: #1E3A2F; color: #FFFFFF; border-radius: 20px; padding: 28px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700">Oferta exportable</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<a href="#" style="text-decoration: none; color: #16201B; background: #D9932B; font-weight: 700; font-size: 14px; padding: 10px 14px; border-radius: 999px">Café</a>
+<a href="#" style="text-decoration: none; color: #FFFFFF; border: 1px solid #5A7A6A; font-weight: 600; font-size: 14px; padding: 10px 14px; border-radius: 999px">Cacao y chocolate</a>
+<a href="#" style="text-decoration: none; color: #FFFFFF; border: 1px solid #5A7A6A; font-weight: 600; font-size: 14px; padding: 10px 14px; border-radius: 999px">Superfoods</a>
+<a href="#" style="text-decoration: none; color: #FFFFFF; border: 1px solid #5A7A6A; font-weight: 600; font-size: 14px; padding: 10px 14px; border-radius: 999px">Hortensias</a>
+<a href="#" style="text-decoration: none; color: #FFFFFF; border: 1px solid #5A7A6A; font-weight: 600; font-size: 14px; padding: 10px 14px; border-radius: 999px">Otros</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+<a href="#" style="text-decoration: none; color: #FFFFFF; background: #2B4A3C; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 2px"><strong style="font-size: 15px">Aromas de Monzón</strong><span style="font-size: 12px; color: #BFD0C6">Café · valle del Monzón</span></a>
+<a href="#" style="text-decoration: none; color: #FFFFFF; background: #2B4A3C; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 2px"><strong style="font-size: 15px">Benito de Monzón</strong><span style="font-size: 12px; color: #BFD0C6">Café</span></a>
+<a href="#" style="text-decoration: none; color: #FFFFFF; background: #2B4A3C; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 2px"><strong style="font-size: 15px">Ovaldizan</strong><span style="font-size: 12px; color: #BFD0C6">Café tostado y molido</span></a>
+<a href="#" style="text-decoration: none; color: #FFFFFF; background: #2B4A3C; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 2px"><strong style="font-size: 15px">Katalú</strong><span style="font-size: 12px; color: #BFD0C6">Chocolate</span></a>
+<a href="#" style="text-decoration: none; color: #FFFFFF; background: #2B4A3C; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 2px"><strong style="font-size: 15px">Milan Chocolates</strong><span style="font-size: 12px; color: #BFD0C6">Chocolate amazónico</span></a>
+<a href="#" style="text-decoration: none; color: #FFFFFF; background: #2B4A3C; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 2px"><strong style="font-size: 15px">Agrolice</strong><span style="font-size: 12px; color: #BFD0C6">Paltas · Canchan y Huariaco</span></a>
+</div>
+<a href="#" style="font-weight: 700; color: #FFFFFF; font-size: 14px">Ver las 12 marcas regionales →</a>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; border-top: 1px solid #3C5A4C; padding-top: 20px; margin-top: auto">
+<a href="#" style="background: #FFFFFF; color: #1E3A2F; text-decoration: none; font-weight: 700; padding: 12px 18px; border-radius: 999px; font-size: 14px">Boletines y estadísticas de exportación</a>
+<a href="#" style="border: 2px solid #FFFFFF; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 10px 16px; border-radius: 999px; font-size: 14px">Hazte socio DIRCETUR</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Historias -->
+<section id="historias" style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 0">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 28px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 44px; letter-spacing: -1px">Historias</h2>
+<a href="#" style="font-weight: 700">Ver blog →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+<a href="#" style="text-decoration: none; color: #16201B; display: flex; flex-direction: column; gap: 12px">
+<div style="height: 200px; background: #2F5243; border-radius: 14px; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #BFD0C6">[Foto producción del artículo]</span></div>
+<span style="font-size: 13px; color: #4A5550">Naturaleza · 23 jun 2025 · 3 min</span>
+<h3 style="margin: 0; font-size: 21px; font-family: 'Bricolage Grotesque', sans-serif; line-height: 1.25">El sendero del gallito de las rocas en el ACR Codo del Pozuzo</h3>
+</a>
+<a href="#" style="text-decoration: none; color: #16201B; display: flex; flex-direction: column; gap: 12px">
+<div style="height: 200px; background: #46634F; border-radius: 14px; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #E6EDE8">[Foto producción del artículo]</span></div>
+<span style="font-size: 13px; color: #4A5550">Naturaleza · 13 feb 2025 · 5 min</span>
+<h3 style="margin: 0; font-size: 21px; font-family: 'Bricolage Grotesque', sans-serif; line-height: 1.25">Biodiversidad y turismo por descubrir en el Codo del Pozuzo</h3>
+</a>
+<a href="#" style="text-decoration: none; color: #16201B; display: flex; flex-direction: column; gap: 12px">
+<div style="height: 200px; background: #8A7B63; border-radius: 14px; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box"><span style="font-size: 12px; color: #F2ECE0">[Foto producción del artículo]</span></div>
+<span style="font-size: 13px; color: #4A5550">Festividades · 6 dic 2024 · 4 min</span>
+<h3 style="margin: 0; font-size: 21px; font-family: 'Bricolage Grotesque', sans-serif; line-height: 1.25">Los Negritos de Huánuco y la Navidad más larga del Perú</h3>
+</a>
+</div>
+</section>
+
+<!-- Catálogos -->
+<section style="max-width: 1200px; margin: 0 auto; padding: 72px 24px 96px">
+<h2 style="margin: 0 0 20px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 28px">Catálogos y guías para descargar</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px">
+<a href="#" style="text-decoration: none; color: #16201B; background: #FFFFFF; border-radius: 14px; padding: 20px; display: flex; gap: 14px; align-items: center">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"></path><path d="M12 11v6M9 14l3 3 3-3"></path></svg>
+<span><strong style="display: block">Guía turística</strong><span style="font-size: 13px; color: #4A5550">Atractivos de la región · PDF</span></span></a>
+<a href="#" style="text-decoration: none; color: #16201B; background: #FFFFFF; border-radius: 14px; padding: 20px; display: flex; gap: 14px; align-items: center">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"></path><path d="M12 11v6M9 14l3 3 3-3"></path></svg>
+<span><strong style="display: block">Catálogo de turismo</strong><span style="font-size: 13px; color: #4A5550">Gastronomía, aventura, naturaleza</span></span></a>
+<a href="#" style="text-decoration: none; color: #16201B; background: #FFFFFF; border-radius: 14px; padding: 20px; display: flex; gap: 14px; align-items: center">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"></path><path d="M12 11v6M9 14l3 3 3-3"></path></svg>
+<span><strong style="display: block">Festividad Negritos de Huánuco</strong><span style="font-size: 13px; color: #4A5550">Historia y tradición</span></span></a>
+<a href="#" style="text-decoration: none; color: #16201B; background: #FFFFFF; border-radius: 14px; padding: 20px; display: flex; gap: 14px; align-items: center">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"></path><path d="M12 11v6M9 14l3 3 3-3"></path></svg>
+<span><strong style="display: block">Comercio exterior</strong><span style="font-size: 13px; color: #4A5550">Oferta exportable regional</span></span></a>
+</div>
+</section>
+
+<!-- Footer -->
+<footer style="background: #0F241B; color: #D8E2DC">
+<div style="max-width: 1200px; margin: 0 auto; padding: 64px 24px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 32px; font-size: 15px">
+<div>
+<p style="margin: 0 0 12px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 24px; color: #FFFFFF">Visit Huánuco</p>
+<p style="margin: 0; line-height: 1.6">Portal oficial de la Dirección Regional de Comercio Exterior y Turismo · Gobierno Regional de Huánuco.</p>
+</div>
+<nav aria-label="Explora" style="display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0 0 4px; font-weight: 700; color: #FFFFFF">Explora</p>
+<a href="#" style="color: #D8E2DC; text-decoration: none">Destinos</a>
+<a href="#" style="color: #D8E2DC; text-decoration: none">Calendario de festividades</a>
+<a href="#" style="color: #D8E2DC; text-decoration: none">Turismo Smart</a>
+<a href="#" style="color: #D8E2DC; text-decoration: none">Atractivos en SIGMINCETUR</a>
+</nav>
+<nav aria-label="Información para tu viaje" style="display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0 0 4px; font-weight: 700; color: #FFFFFF">Para tu viaje</p>
+<a href="https://www.gob.pe/senamhi" style="color: #D8E2DC; text-decoration: none">Clima (SENAMHI)</a>
+<a href="https://www.sernanp.gob.pe/" style="color: #D8E2DC; text-decoration: none">Áreas protegidas (SERNANP)</a>
+<a href="#" style="color: #D8E2DC; text-decoration: none">App Tourist Police Perú</a>
+</nav>
+<nav aria-label="Empresas" style="display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0 0 4px; font-weight: 700; color: #FFFFFF">Empresas y artesanos</p>
+<a href="#" style="color: #D8E2DC; text-decoration: none">Oferta exportable</a>
+<a href="#" style="color: #D8E2DC; text-decoration: none">Artesanía</a>
+<a href="#" style="color: #D8E2DC; text-decoration: none">Boletines y estadísticas</a>
+<a href="#" style="color: #D8E2DC; text-decoration: none">Hazte socio DIRCETUR</a>
+</nav>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0 0 4px; font-weight: 700; color: #FFFFFF">Contacto</p>
+<span>2 de Mayo 1305, Huánuco</span>
+<a href="https://wa.me/51949100280" style="color: #D8E2DC; text-decoration: none">+51 949 100 280</a>
+<a href="mailto:visit.huanuco.dircetur@gmail.com" style="color: #D8E2DC; text-decoration: none">visit.huanuco.dircetur@gmail.com</a>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px">
+<a href="https://www.instagram.com/dirceturhuanuco/" style="color: #D8E2DC">Instagram</a><a href="https://www.facebook.com/dircetur.huanuco" style="color: #D8E2DC">Facebook</a><a href="https://www.tiktok.com/@dirceturhco" style="color: #D8E2DC">TikTok</a><a href="https://www.youtube.com/@dirceturhuanuco" style="color: #D8E2DC">YouTube</a>
+</div>
+</div>
+</div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px 24px 32px; border-top: 1px solid #2B4538; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; font-size: 13px; color: #A9BDB2">
+<div style="display: flex; gap: 12px; align-items: center">
+<span style="display: inline-flex; align-items: center; justify-content: center; height: 36px; padding: 0 12px; border: 1px dashed #3C5A4C; border-radius: 6px; font-size: 11px">[Logo Gobierno Regional]</span>
+<span style="display: inline-flex; align-items: center; justify-content: center; height: 36px; padding: 0 12px; border: 1px dashed #3C5A4C; border-radius: 6px; font-size: 11px">[Logo DIRCETUR]</span>
+</div>
+<span>© 2026 DIRCETUR Huánuco · <a href="#" style="color: #A9BDB2">Política de privacidad</a> · <a href="#" style="color: #A9BDB2">Términos y condiciones</a></span>
+</div>
+</footer>
+</div>
+
+</body>
+</html>
